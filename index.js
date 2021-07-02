@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/getContacts')
+fetch('https://polar-woodland-31196.herokuapp.com/getContacts')
     .then(data => data.json())
     .then((res) => {
         const ul = document.getElementById('list');
